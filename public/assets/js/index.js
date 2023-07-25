@@ -32,3 +32,43 @@ const writeDatabase = async (data) => {
     throw new Error('Failed to write to the database.');
   }
 };
+
+//  api / read notes from database 
+
+app.get('/api/notes', async (req, res) => {
+  try {
+    const notes = await readDatabase(); 
+    return res.json(notes);
+  } catch (err) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+app.post('/api/notes', async (req, res) => {
+  const { title, text } = req.body;
+  if (!title || !text) {
+    return res.status(400).json({ error: 'Title and text are required fields.' });
+  }
+
+  // Read the notes  / add  new note / write and update notes 
+  try {
+    let notes = await readDatabase(); 
+    const newNote = { id: Date.now().toString(), title, text };
+    notes.push(newNote); 
+    await writeDatabase(notes); 
+    return res.json(newNote);
+  } catch (err) {
+    return res.status(500).json({ error: err.message });
+  }
+});
+
+// add delete funtcions 
+
+
+// HTML
+
+
+//  start server 
+app.listen(PORT, () => {
+  console.log(`Server listening on http://localhost:${PORT}`);
+});
