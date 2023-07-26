@@ -9,7 +9,6 @@ I was tasked with my tenth challenge to make a Logo SVG Generator.
 - learning to use new programs 
 - learning to make async await work correctly
 - learning to use heroku
-- 
 
 **Note**: I followed the criteria below provided by the class instructors.
 
@@ -38,21 +37,7 @@ I was tasked with my tenth challenge to make a Logo SVG Generator.
 - WHEN I click on the Write icon in the navigation at the top of the page
 - THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 
- **Note**: 
-
- ## Installation
- - 
- - 
- - 
- - 
-
-
- ## Usage
- - 
- - 
- - 
- - 
-
+ **Note**: Heroku deployment keeps crashing when i toggle off payments 
 
 
 ## Mock-Up
@@ -61,22 +46,23 @@ The following image shows the web application after I edited the code.
 
 **Note**: This image is a screen shot once I finished the assisnment.
 
-![Express Note Taker](./)
+![Express Note Taker](./Assests/screenshot.png)
 
 
 ## Credits
  - [W3 School](https://www.w3schools.com/js/js_async.asp)
  - [Youtube](https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2)
  - [MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
- - 
+ - study group help
 
 
 **Note**: User story and acceptance criteria was provided to me in class
  UNB-VIRT-FSF-PT-04-2023-U-LOLC for Week 11 Challenge. 
 
-## My Github
+## My Github & Deployed Heroku 
 
 - [Github](https://xnoirnightx.github.io/Express-Note-Taker)
+- [Heroku](https://evening-plateau-00491-158fec99f675.herokuapp.com/notes)
 
 ## License
 
