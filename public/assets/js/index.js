@@ -62,11 +62,24 @@ app.post('/api/notes', async (req, res) => {
   }
 });
 
-// add delete funtcions 
+// add delete funtcions / filter notes / update to array
+app.delete('/api/notes/:id', async (req, res) => {
+  const noteId = req.params.id;
 
+  try {
+    let notes = await readDatabase(); 
+    notes = notes.filter((note) => note.id !== noteId); 
+    await writeDatabase(notes);
+    return res.json({ success: true });
+  } catch (err) {
+    return res.status(500).json({ error: err.message });
+  }
+});
 
 // HTML
-
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'index.html'));
+});
 
 //  start server 
 app.listen(PORT, () => {
