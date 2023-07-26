@@ -61,7 +61,7 @@ The following image shows the web application after I edited the code.
 
 ## My Github & Deployed Heroku 
 
-- [Github](https://xnoirnightx.github.io/Express-Note-Taker)
+- [Github](https://github.com/xNoirNightx/Express-Note-Taker) 
 - [Heroku](https://evening-plateau-00491-158fec99f675.herokuapp.com/notes)
 
 ## License
