@@ -5,10 +5,10 @@ Challenge 11 , Note Taker that can be used to write and save notes using express
 
 I was tasked with my tenth challenge to make a Logo SVG Generator.
 
-- 
-- 
-- 
-- 
+- learning to make back end work with front 
+- learning to use new programs 
+- learning to make async await work correctly
+- learning to use heroku
 - 
 
 **Note**: I followed the criteria below provided by the class instructors.
@@ -27,7 +27,8 @@ I was tasked with my tenth challenge to make a Logo SVG Generator.
 - WHEN I open the Note Taker
 - THEN I am presented with a landing page with a link to a notes page
 - WHEN I click on the link to the notes page
-- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new - - note title and the note’s text in the right-hand column
+- THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new - 
+- note title and the note’s text in the right-hand column
 - WHEN I enter a new note title and the note’s text
 - THEN a Save icon appears in the navigation at the top of the page
 - WHEN I click on the Save icon
@@ -64,9 +65,9 @@ The following image shows the web application after I edited the code.
 
 
 ## Credits
- - 
- - 
- - 
+ - [W3 School](https://www.w3schools.com/js/js_async.asp)
+ - [Youtube](https://www.youtube.com/watch?v=39znK--Yo1o&list=PL_cUvD4qzbkwp6pxx27pqgohrsP8v1Wj2)
+ - [MDN](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website)
  - 
 
 
